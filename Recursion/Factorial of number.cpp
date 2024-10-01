@@ -1,8 +1,10 @@
 #include <iostream>
 
 using namespace std;
- 
+ //Here we create a function
  int factorial(int n){
+
+  //It is base case
     if (n<=1){
         return 1;}
     return n*factorial(n-1);    
